@@ -1,0 +1,2597 @@
+body {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    /* background-color: chocolate; */
+    /* background-color: #333; */
+}
+
+.wraper_Main {
+    /* background-color: antiquewhite; */
+    display: flex;
+    /* flex */
+    width: 1440px;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+
+}
+
+.wraper_Main_show {
+    display: none;
+    /* none */
+}
+
+
+
+.Banner {
+    width: 1440px;
+    height: 810px;
+    justify-content: center;
+    /* background-color: aqua; */
+
+    /* background-image: url(/img/Снимок.PNG); */
+    background-repeat: no-repeat;
+}
+
+
+.Banner-img {
+    background-image: url(../image/Mask\ group\ 1.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 650px;
+}
+
+.Banner-svg {
+    background-image: url(../svg/top_banner/background.svg);
+    width: 1139px;
+    height: 650px;
+    display: block;
+
+}
+
+.Banner-header {
+    display: flex;
+    height: 40px;
+    width: 926px;
+    justify-content: center;
+    text-align: center;
+    margin: -8PX 0 0 120PX;
+}
+
+.Button-info {
+    display: flex;
+    height: 19px;
+    width: 440px;
+    margin: 10px 0 0 25px;
+}
+
+
+
+.about-the-company {
+    color: #FFF;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    margin: 0 0 0 1px;
+}
+
+.btn-about-the-company {
+    width: 130px;
+    height: 19px;
+    border: medium none;
+    background: transparent;
+}
+
+.delivery-and-payment {
+    color: #FFF;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    margin: 0 0 0 20px;
+}
+
+.btn-delivery-and-payment {
+    width: 175px;
+    height: 19px;
+    border: medium none;
+    background: transparent;
+}
+
+.contacts {
+    color: #FFF;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    margin: 0 0 0 20px;
+}
+
+.btn-contacts {
+    width: 130px;
+    height: 19px;
+    border: medium none;
+    background: transparent;
+}
+
+.info-time-namber-Phone {
+    display: flex;
+    height: 20px;
+    width: 338px;
+    margin: 10px 0 0 95px;
+}
+
+.info-time {
+    color: #FFF;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    margin: 0 18px 0 10px;
+}
+
+.info-phone {
+    color: #FFF;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    margin: 0 0px 0 10px;
+
+}
+
+.heading {
+    height: 236px;
+    width: 731px;
+    margin: 120px 0 0 161px;
+    /* background-color: aquamarine; */
+}
+
+.our-company-is-engaged-in {
+    height: 28px;
+    width: 611px;
+    color: #FFF;
+    font-feature-settings: 'liga' off;
+    font-family: GT Eesti Pro Display;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+
+}
+
+.logging {
+    height: 74px;
+    color: #FFF;
+    width: 731px;
+    font-feature-settings: 'liga' off;
+    font-family: GT Eesti Pro Display;
+    font-size: 54px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.56px;
+    text-transform: uppercase;
+    margin-top: -10px;
+
+}
+
+.logging-info {
+    height: 42px;
+    width: 632px;
+    color: #FFF;
+    font-feature-settings: 'liga' off;
+    font-family: GT Eesti Pro Display;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+    margin-top: -50px;
+}
+
+.button-Submit-your-application {
+    display: flex;
+    padding: 13px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 26px;
+    background: #799A0D;
+
+    color: #333;
+    text-align: center;
+    font-family: GT Eesti Pro Display;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.Banner-categories {
+    display: flex;
+    width: 1190PX;
+    height: 309px;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: #FFF;
+    margin: 104px 0 0 120px;
+    border-radius: 6PX;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+
+    /* position: fixed; */
+}
+
+
+
+
+.btn_hover {
+    display: none;
+    /* display: inline-flex; */
+    padding: 14px 51px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 26px;
+    background-color: #799A0D;
+    margin-top: 40px;
+
+}
+
+
+.Sawmill-of-coniferous-species {
+    height: 309px;
+    width: 238px;
+    background-color: #FFF;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.3s;
+
+
+}
+
+.Sawmill-of-coniferous-species:hover {
+
+    background-color: #333;
+    height: 370px;
+    width: 238px;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+
+    .btn_hover {
+        display: inline-flex;
+
+    }
+
+    .black-needles {
+        display: none;
+    }
+
+    .White-needles {
+        display: inline-flex;
+
+    }
+
+}
+
+.Charcoal-wood {
+    height: 309px;
+    width: 238px;
+    background-color: #FFF;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.Charcoal-wood:hover {
+
+    background-color: #333;
+    height: 370px;
+    width: 238px;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+
+    .btn_hover {
+        display: inline-flex;
+
+    }
+
+    .black-coal {
+        display: none;
+    }
+
+
+    .white-coal {
+        display: inline-flex;
+    }
+
+
+
+}
+
+.Lumber {
+    height: 309px;
+    width: 238px;
+    background-color: #FFF;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.Lumber:hover {
+    background-color: #333;
+    height: 370px;
+    width: 238px;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+
+
+    .btn_hover {
+        display: inline-flex;
+
+    }
+
+    .black-lumber {
+        display: none;
+    }
+
+
+    .white-lumber {
+        display: inline-flex;
+    }
+}
+
+.Europoddons {
+
+    height: 309px;
+    width: 238px;
+    background-color: #FFF;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.Europoddons:hover {
+    background-color: #333;
+    height: 370px;
+    width: 238px;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+
+    .btn_hover {
+        display: inline-flex;
+
+
+    }
+
+    .black-europoddons {
+        display: none;
+    }
+
+
+    .white-europoddons {
+        display: inline-flex;
+    }
+}
+
+.lezhnevka {
+    height: 309px;
+    width: 238px;
+    background-color: #FFF;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.lezhnevka:hover {
+    background-color: #333;
+    height: 370px;
+    width: 238px;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+
+    .btn_hover {
+        display: inline-flex;
+
+    }
+
+    .black-lezhnevka {
+        display: none;
+    }
+
+
+    .white-lezhnevka {
+        display: inline-flex;
+    }
+}
+
+.White-needles {
+    display: none;
+    justify-content: center;
+    text-align: center;
+    /* margin-left: 65px; */
+}
+
+.white-coal {
+    display: none;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+
+.white-lumber {
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.white-europoddons {
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.white-lezhnevka {
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.needles-svg {
+    width: 234px;
+    height: 58px;
+    flex-shrink: 0;
+    margin-top: 53px;
+    /* background-color: #799A0D; */
+    display: block;
+}
+
+.coal-svg {
+    width: 234px;
+    height: 66px;
+    flex-shrink: 0;
+    margin-top: 53px;
+}
+
+.lumber-svg {
+    width: 234px;
+    height: 73px;
+    flex-shrink: 0;
+    margin-top: 45px;
+}
+
+.europoddons-svg {
+    width: 234px;
+    height: 73px;
+    flex-shrink: 0;
+    margin-top: 50px;
+}
+
+.lezhnevka-svg {
+    width: 234px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-top: 53px;
+}
+
+.title-needles {
+    width: 234px;
+    height: 42px;
+    /* color: #313131; */
+
+    font-feature-settings: 'liga' off;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 118%;
+    /* 21.24px */
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+
+}
+
+.title-coal {
+    width: 234px;
+    height: 21px;
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 117%;
+    /* 21.06px */
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+}
+
+.title-lumber {
+    width: 234px;
+    height: 21px;
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 117%;
+    /* 21.06px */
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+}
+
+.title-europoddons {
+    width: 234px;
+    height: 20px;
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: GT Eesti Pro Display;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 122.5%;
+    /* 19.6px */
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+}
+
+.title-lezhnevka {
+    width: 234px;
+    height: 42px;
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 118%;
+    /* 21.24px */
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+}
+
+.info-needles {
+    height: 70px;
+    width: 206px;
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 21px;
+    margin-left: 13px;
+}
+
+.info-coal {
+    height: 84px;
+    width: 206px;
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 21px;
+    margin-left: 13px;
+}
+
+.info-lumber {
+    height: 84px;
+    width: 206px;
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 21px;
+    margin-left: 13px;
+}
+
+.info-europoddons {
+    height: 84px;
+    width: 206px;
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 21px;
+    margin-left: 13px;
+}
+
+.info-lezhnevka {
+    height: 70px;
+    width: 206px;
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 21px;
+    margin-left: 13px;
+}
+
+
+
+
+
+.company {
+    width: 1440px;
+    height: 522px;
+    background-color: cadetblue;
+    display: flex;
+}
+
+.company-img {
+    background-image: url(../image/Изобрвжение.png);
+    width: 1440px;
+    height: 522px;
+}
+
+.company-svg {
+    background-image: url(../svg/company_info/banner.svg);
+    width: 709px;
+    height: 522px;
+}
+
+.company-text {
+    width: 771px;
+    height: 272px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* background-color: aquamarine; */
+    margin: 126px 0 0 336px;
+}
+
+.header_company-line {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* background-color: antiquewhite; */
+
+}
+
+.header-company {
+    width: 140px;
+    height: 28px;
+    /* background-color: aliceblue; */
+    color: #8BAF13;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.10);
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+
+}
+
+.green-line {
+    width: 50px;
+    height: 1px;
+    background: #8BAF13;
+}
+
+.full-text {
+    /* background-color: #8BAF13; */
+    width: 771px;
+    height: 137px;
+    margin-top: 20px;
+}
+
+.first-text {
+    /* background-color: chocolate; */
+    width: 767px;
+    height: 70px;
+}
+
+.first-info {
+    color: #FFF;
+    font-family: GT Eesti Pro Display;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.second-text {
+    width: 771px;
+    height: 57px;
+    /* background-color: cornflowerblue; */
+    margin-top: 10px;
+
+}
+
+.second-info {
+    color: #FFF;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+}
+
+.btn-more-detailed {
+    margin-top: 35px;
+    display: flex;
+    padding: 13px 35px;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    background-color: #799A0D;
+    border-radius: 26px;
+
+}
+
+.Our-products {
+    width: 1201px;
+    height: 466px;
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-product {
+    width: 269px;
+    height: 43px;
+    /* background-color: #799A0D; */
+    display: inline-flex;
+
+
+}
+
+.text-product {
+    width: 228px;
+    height: 35px;
+    /* background-color: antiquewhite; */
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #1C1C1C;
+    font-family: GT Eesti Pro Display;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.product-categories {
+    /* background-color: aqua; */
+    width: 1200px;
+    height: 393px;
+    margin-top: 30px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.product-full-categories {
+    width: 264px;
+    height: 393px;
+    /* background-color: antiquewhite; */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: 0.2s;
+
+
+}
+
+.product-full-categories:hover {
+    width: 308px;
+    height: 445px;
+
+    .btn-categories {
+        display: inline-flex;
+        justify-content: center;
+
+    }
+
+
+}
+
+.btn-categories {
+    margin-top: 20px;
+    width: 145px;
+    height: 40px;
+    border-radius: 25px;
+    background: #799A0D;
+    display: none;
+}
+
+.class-text {
+    color: #333;
+    text-align: center;
+    font-family: GT Eesti Pro Display;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 132.5%;
+    /* 15.9px */
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.categories-img {
+    width: 264px;
+    height: 275px;
+    /* background-color: #799A0D; */
+    display: block;
+    text-align: center;
+}
+
+.img {
+    width: 242px;
+    height: 189px;
+    margin-top: 63px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.text-categories {
+    width: 264px;
+    height: 63px;
+    /* background-color: blueviolet; */
+    display: block;
+    text-align: center;
+
+
+}
+
+.categories-first-text {
+    width: 124px;
+    height: 19px;
+    /* background-color: blueviolet; */
+
+    color: #1C1C1C;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    margin-left: 70px;
+}
+
+.categories-second-text {
+    width: 264px;
+    height: 34px;
+    font-weight: 700;
+    /* background-color: chocolate; */
+    color: #1C1C1C;
+    font-family: GT Eesti Pro Display;
+    font-size: 12px;
+    font-style: italic;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin-top: 25px;
+}
+
+
+.footer-Main {
+    display: flex;
+    width: 1400px;
+    height: 235px;
+    justify-content: center;
+    align-items: center;
+    background: #1C1C1C;
+}
+
+.info-footer {
+    width: 1199px;
+    height: 155px;
+    /* background-color: aliceblue; */
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+.logo-text {
+    /* background-color: aqua; */
+    width: 262px;
+    height: 97px;
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.text-Main {
+    color: #fff;
+    font-family: GT Eesti Pro Display;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    margin-top: 15px;
+}
+
+.Main-categories {
+    width: 587PX;
+    height: 155PX;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+
+
+
+.dividing-column {
+    width: 1px;
+    height: 155px;
+    opacity: 0.4;
+    background: #BCCAD2;
+}
+
+.product-footer {
+    width: 106px;
+    height: 146px;
+    /* background-color: darkcyan; */
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.footer-text-first {
+    color: #FFF;
+    font-family: GT Eesti Pro Display;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.full-text-second {
+    width: 106px;
+    height: 110px;
+    /* background-color: blue; */
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer-text-second {
+    color: #FFF;
+    font-family: GT Eesti Pro Display;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.28px;
+
+}
+
+.Main-information {
+    width: 126px;
+    height: 96px;
+    /* background-color: #2089c6; */
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.footer-information-ferst {
+    color: #FFF;
+    font-family: GT Eesti Pro Display;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.full-information-second {
+    width: 126px;
+    height: 60px;
+    /* background-color: aquamarine; */
+}
+
+.footer-information-second {
+    width: 81;
+    height: 10px;
+    color: #FFF;
+    font-family: GT Eesti Pro Display;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.28px;
+
+}
+
+.footer-contacts {
+    width: 152px;
+    height: 96px;
+    /* background-color: #8BAF13; */
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.footer-contacts-ferst {
+    color: #FFF;
+    font-family: GT Eesti Pro Display;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
+    margin-top: 0px;
+
+}
+
+.footer-contacts-second {
+    color: #FFF;
+    font-family: GT Eesti Pro Display;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.28px;
+
+}
+
+.wraper-cotolog{
+    width: 200px;
+    height: 50px;
+    background-color: #648300;
+    
+}
+
+/* _______________________wraper-about-the-company____________________________ */
+
+
+.wraper-company {
+    width: 1400px;
+    /* height: 1735px; */
+    /* background-color: rgb(181, 103, 1); */
+    margin-top: -10px;
+    display: none;
+    /* none */
+    justify-content: center;
+    text-align: center;
+
+}
+
+.wraper-company_show {
+    display: block;
+    /* block */
+}
+
+.company-heder {
+    /* background-color: #bfbfbf; */
+    width: 1400px;
+    height: 72px;
+    display: flex;
+}
+
+.black-logo {
+    width: 40px;
+    height: 40px;
+    margin: 16px 0 0 100px;
+
+}
+
+.company-info {
+    /* background-color: #0050fc; */
+    width: 352px;
+    height: 21px;
+    margin: 26px 0 0 24px;
+}
+
+.company-info-btn {
+    color: #171717;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: 132.5%;
+    /* 21.2px */
+    letter-spacing: 0.32px;
+    border: medium none;
+    background: transparent;
+}
+
+.company-time-Phone {
+    width: 303px;
+    height: 19px;
+
+    margin: 28px 0 0 302px;
+    display: inline-flex;
+
+
+}
+
+.company-time {
+    width: 140px;
+    height: 19px;
+    display: inline-flex;
+
+}
+
+.company-info-time {
+    width: 121px;
+    height: 12px;
+    color: #000;
+    font-family: GT Eesti Pro Display;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: 132.5%;
+    /* 18.55px */
+    letter-spacing: 0.07px;
+    margin: 0 0 0 9px;
+
+}
+
+.company-Phone {
+    width: 134px;
+    height: 19px;
+
+    margin-left: 30px;
+    display: inline-flex;
+}
+
+.company-info-Phone {
+    color: #000;
+    font-family: GT Eesti Pro Display;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: 132.5%;
+    /* 18.55px */
+    letter-spacing: 0.07px;
+    margin-top: 0px;
+    margin-left: 8px;
+}
+
+.header-down {
+    width: 1400px;
+    height: 51px;
+    background-color: #1C1C1C;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.header-down-menu-input {
+    width: 1202px;
+    height: 32px;
+    /* background-color: #799A0D; */
+    margin-top: 9px;
+    display: inline-flex;
+    justify-content: start;
+
+}
+
+.btn-input{
+    width: 50px;
+    height: 30px;
+    background-color: #333;
+    color: #BCCAD2;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+
+.header-down-menu {
+    width: 970px;
+    height: 19px;
+    /* background-color: antiquewhite; */
+    margin-top: 7px;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+
+.header-down-menu-text1 {
+    width: 215px;
+    height: 19px;
+    color: #fff;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    margin-top: 0px;
+    /* background-color: mediumaquamarine; */
+    border: medium none;
+    background: transparent;
+
+}
+
+.header-down-menu-text2 {
+    width: 296px;
+    height: 19px;
+    color: #fff;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    margin-left: 0px;
+    margin-top: 0%;
+    /* background-color: mediumaquamarine; */
+    border: medium none;
+    background: transparent;
+
+}
+
+.header-down-menu-text3 {
+    width: 137px;
+    height: 19px;
+    color: #fff;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    margin-left: 0px;
+    margin-top: 0%;
+    /* background-color: mediumaquamarine; */
+    border: medium none;
+    background: transparent;
+
+}
+
+.header-down-menu-text4 {
+    width: 130px;
+    height: 19px;
+    color: #fff;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    margin-left: 0px;
+    margin-top: 0%;
+    /* background-color: mediumaquamarine; */
+    border: medium none;
+    background: transparent;
+
+}
+
+.header-down-menu-text5 {
+    width: 110px;
+    height: 19px;
+    color: #fff;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    margin-left: 0px;
+    margin-top: 0%;
+    /* background-color: mediumaquamarine; */
+    border: medium none;
+    background: transparent;
+}
+
+
+.site-search {
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.photo-heading {
+    width: 1400px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../image/Изображение1.png);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.heading-company {
+    width: 400px;
+    height: 70px;
+    /* background-color: rgb(0, 255, 30); */
+    margin-top: 73px;
+
+    justify-content: center;
+    text-align: center;
+}
+
+.heading-about-the-company {
+    width: 175px;
+    height: 28PX;
+    /* background-color: #8BAF13; */
+    margin: 0%;
+    color: #000;
+    text-align: center;
+    font-family: GT Eesti Pro Display;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: none;
+    /* none */
+    margin-left: 105px;
+}
+
+.heading-about-the-company-show {
+    display: flex;
+    /* flex */
+}
+
+.heading-delivery-and-payment {
+    width: 267px;
+    height: 28px;
+    /* background-color: #8BAF13; */
+    margin: 0%;
+    color: #000;
+    text-align: center;
+    font-family: GT Eesti Pro Display;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 65px;
+    display: none;
+    /* none */
+}
+
+.heading-delivery-and-payment-show {
+    display: flex;
+    /* flex */
+}
+
+.heading-contacts {
+    width: 134px;
+    height: 28px;
+    /* background-color: #8BAF13; */
+    margin: 0%;
+    color: #000;
+    text-align: center;
+    font-family: GT Eesti Pro Display;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: none;
+    /* none */
+    margin-left: 135px;
+}
+
+.heading-contacts-show {
+    display: flex;
+    /* flex */
+}
+
+.heading-error{
+    width: 405px;
+    height: 50px;
+    /* background-color: #8BAF13; */
+    margin: 0%;
+    color: #000;
+    text-align: center;
+    font-family: GT Eesti Pro Display;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display:none;
+    /* none */
+    margin-left: 0px;
+}
+
+.heading-error-show{
+    display: flex;
+    /* flex */
+}
+
+
+.heading-Sawmill{
+    width: 134px;
+    height: 75px;
+    /* background-color: #8BAF13; */
+    margin: 0%;
+    color: #000;
+    text-align: center;
+    font-family: GT Eesti Pro Display;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display:none;
+    /* none */
+    margin-left: 115px;
+}
+
+.heading-Sawmill-show {
+    display: flex;
+    /* flex */
+}
+
+.heading-lezhnevka{
+    width: 405px;
+    height: 50px;
+    /* background-color: #8BAF13; */
+    margin: 0%;
+    color: #000;
+    text-align: center;
+    font-family: GT Eesti Pro Display;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display:none;
+    /* none */
+    margin-left: 0px;
+}
+
+.heading-lezhnevka-show {
+    display: flex;
+    /* flex */
+}
+
+.heading-Charcoal{
+    width: 134px;
+    height: 50px;
+    /* background-color: #8BAF13; */
+    margin: 0%;
+    color: #000;
+    text-align: center;
+    font-family: GT Eesti Pro Display;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display:none;
+    /* none */
+    margin-left: 125px;
+}
+
+.heading-Charcoal-show {
+    display: flex;
+    /* flex */
+}
+
+.heading-Lumber{
+    width: 134px;
+    height: 28px;
+    /* background-color: #8BAF13; */
+    margin: 0%;
+    color: #000;
+    text-align: center;
+    font-family: GT Eesti Pro Display;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display:none;
+    /* none */
+    margin-left: 80px;
+}
+
+.heading-Lumber-show {
+    display: flex;
+    /* flex */
+}
+
+.heading-Europoddons{
+    width: 134px;
+    height: 28px;
+    /* background-color: #8BAF13; */
+    margin: 0%;
+    color: #000;
+    text-align: center;
+    font-family: GT Eesti Pro Display;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display:none;
+    /* none */
+    margin-left: 100px;
+}
+
+.heading-Europoddons-show {
+    display: flex;
+    /* flex */
+}
+
+.wraper-error{
+    width: 200px;
+    height: 100px;
+    background-color: #648300;
+}
+
+.btn-Go-back {
+    width: 175px;
+    height: 35px;
+    /* background-color: aqua; */
+    margin-top: 10px;
+    border: medium none;
+    background: transparent;
+    color: #799A0D;
+    font-family: GT Eesti Pro Display;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
+   
+
+}
+
+
+
+.wraper-catolog{
+    width: 1200px;
+    height: 500px;
+    display:none    ;
+    justify-content: center;
+    text-align: center;
+}
+
+.wraper-catolog-show{
+    display: inline-flex;
+}
+
+.Sawmill-img{
+    width: 242px;
+    height: 189px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.catolog-Sawmill{
+    width: 270px;
+    height: 315px;
+    margin-top: 80px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.catolog-Sawmill-show{
+    display:inline-block ;
+}
+
+.catolog-Sawmill:hover {
+    width: 270px;
+    height: 400px;
+
+    .btn-categories {
+        display: inline-flex;
+        justify-content: center;
+
+    }
+
+
+}
+
+.catolog-Lezhnevka{
+    width: 270px;
+    height: 315px;
+    margin-top: 80px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.catolog-Lezhnevka:hover{
+    width: 270px;
+    height: 400px;
+    .btn-categories {
+        display: inline-flex;
+        justify-content: center;
+
+    }
+}
+
+.catolog-Lezhnevka-show{
+    display:inline-block ;
+}
+
+
+.catolog-Lumber{
+    width: 270px;
+    height: 315px;
+    margin-top: 80px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.catolog-Lumber:hover {
+    width: 270px;
+    height: 400px;
+
+    .btn-categories {
+        display: inline-flex;
+        justify-content: center;
+
+    }
+
+
+}
+
+.catolog-Lumber-show{
+    display:inline-block ;
+}
+
+
+.catolog-Europoddons{
+    width: 270px;
+    height: 315px;
+    margin-top: 80px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.catolog-Europoddons-show{
+    display:inline-block ;
+}
+
+.catolog-Europoddons:hover {
+    width: 270px;
+    height: 400px;
+
+    .btn-categories {
+        display: inline-flex;
+        justify-content: center;
+
+    }
+
+
+}
+
+.catolog-Charcoal{
+    width: 270px;
+    height: 315px;
+    margin-top: 80px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.catolog-Charcoal-show{
+    display:inline-block ;
+}
+
+.catolog-Charcoal:hover {
+    width: 270px;
+    height: 400px;
+
+    .btn-categories {
+        display: inline-flex;
+        justify-content: center;
+
+    }
+
+
+}
+
+
+
+
+
+.photo-about-the-company-block-of-text {
+    display: none;
+    /* none */
+    width: 1202px;
+    height: 800px;
+    margin-left: 100px;
+    /* background-color: #bfbfbf; */
+
+}
+
+.photo-about-the-company-block-of-text_show {
+    display: block;
+    /* block */
+}
+
+.block-of-text-heading-about-the-company {
+    width: 438px;
+    height: 77px;
+    /* background-color: antiquewhite; */
+}
+
+.block-of-text-heading-full {
+    width: 369px;
+    height: 54px;
+    /* background-color: aqua; */
+}
+
+.block-of-text-heading {
+    width: 136px;
+    height: 28px;
+    color: #1C1C1C;
+    font-feature-settings: 'liga' off;
+    font-family: GT Eesti Pro Display;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+    /* background-color: #799A0D; */
+
+}
+
+.block-of-text-heading-info {
+    width: 369px;
+    height: 21px;
+    /* background-color: aquamarine; */
+    font-feature-settings: 'liga' off;
+    font-family: GT Eesti Pro Display;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.09px;
+
+}
+
+.line-about-the-company {
+    width: 438px;
+    height: 3px;
+    /* background-color: #7d5a5a; */
+    margin-top: 20px;
+    display: flex;
+}
+
+.green-company {
+    width: 92px;
+    height: 3px;
+    background-color: #799A0D;
+}
+
+.gray-company {
+    width: 438px;
+    height: 1px;
+    background-color: #BCCAD2;
+    margin-top: 2px;
+}
+
+.blok-text-full {
+    display: block;
+    /* background-color: bisque; */
+    width: 1202px;
+    height: 658px;
+
+}
+
+.blok-text-btn-certificate {
+    width: 1202px;
+    height: 273px;
+    /* background-color: yellow; */
+
+    display: flex;
+}
+
+.blok-first-text {
+    width: 955px;
+    height: 273px;
+    /* background-color: cadetblue; */
+
+}
+
+.class-blok-first-text {
+    width: 900px;
+    text-align: justify;
+    font-family: GT Eesti Pro Display;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.class-blok-second-text {
+    width: 1200px;
+    text-align: justify;
+    font-family: GT Eesti Pro Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.btn-blok-certificate {
+    background-image: url(../svg/about-the-company/ff.svg);
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 271px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* background-color: #799A0D; */
+    margin-left: 40px;
+    margin-top: 6px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+
+.btn-magnifier-svg {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    opacity: 20px;
+}
+
+.magnifier-svg {
+    display: flex;
+    width: 16.39px;
+    height: 16.39px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+}
+
+.blok-second-text {
+    width: 1200px;
+    height: 273px;
+    /* background-color: aqua; */
+    margin-top: 50px;
+}
+
+.blok-last-text {
+    width: 1200px;
+    height: 60px;
+    /* background-color: indianred; */
+    display: block;
+
+}
+
+.class1-blok-last-text {
+    text-align: right;
+    font-family: GT Eesti Pro Display;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.class2-blok-last-text {
+    text-align: right;
+    font-family: GT Eesti Pro Display;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.wraper-open-certificate {
+    background-image: url(../image/derevia_les_tuman_1012918_2560x1080.jpg);
+    display: none;
+    /* none */
+    width: 1400px;
+    height: 750px;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.wraper-open-certificate-show {
+    display: flex;
+    /* flex */
+}
+
+.open-certificate {
+    display: block;
+    background-image: url(../svg/about-the-company/sertiviceit.svg);
+    width: 490px;
+    height: 701px;
+    
+    margin-left: 475px;
+    margin-top: 25px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.wraper-open-certificate-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    position: relative;
+    z-index: 1;
+    margin: 10px 0 0 450px;
+    cursor: pointer;
+
+}
+
+.wraper-open-certificate-btn:before {
+    content: '+';
+    color: #648300;
+    position: absolute;
+    z-index: 2;
+    transform: rotate(45deg);
+    font-size: 50px;
+    line-height: 1;
+    top: -15px;
+    left: 6px;
+    transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);
+}
+
+.wraper-open-certificate-btn:after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background: #648300;
+    z-index: 1;
+    transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);
+    transform: scale(0.01);
+}
+
+.wraper-open-certificate-btn:hover:after {
+    transform: scale(1);
+}
+
+.wraper-open-certificate-btn:hover:before {
+    transform: scale(0.8) rotate(45deg);
+    color: #000;
+}
+
+/* ------------blok-delivery-and-payment-------------- */
+
+.wraper-blok-delivery-and-payment {
+    width: 1201px;
+    height: 1010px;
+    display: none;
+    /* none */
+    justify-content: center;
+    text-align: center;
+    gap: 70px;
+    margin-left: 85px;
+
+}
+
+.wraper-blok-delivery-and-payment-show {
+    display: block;
+    /* block */
+}
+
+.wraper-blok-delivery {
+    width: 1201px;
+    height: 415px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.wraper-blok-payment {
+
+    width: 1201px;
+    height: 504px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.wraper-blok-delivery-heder {
+    width: 446px;
+    height: 104px;
+    /* background-color: aquamarine; */
+    display: block;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.wraper-blok-delivery-heder-first {
+    width: 317px;
+    height: 43px;
+    /* background-color: blueviolet; */
+    margin-top: 0px;
+    color: #000;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: GT Eesti Pro Display;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 63px;
+    /* 210% */
+    letter-spacing: 0.3px;
+    margin-left: 64px;
+}
+
+.wraper-blok-delivery-heder-second {
+    width: 446px;
+    color: #3D3D3D;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 23px;
+    /* 143.75% */
+    letter-spacing: 0.32px;
+    margin-top: 20px;
+}
+
+.blok-cart {
+    width: 1201px;
+    height: 281px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* background-color: rgb(2, 132, 119); */
+}
+
+.delivery-cart {
+    display: flex;
+    width: 360px;
+    height: 210px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #3D3D3D;
+}
+
+.delivery-cart:hover {
+    background-color: #333;
+    color: #8BAF13;
+}
+
+.delivery-cart-text {
+    width: 312px;
+    height: 119px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* background-color: #8BAF13; */
+}
+
+.delivery-arrows {
+    width: 22.5px;
+    height: 17px;
+    /* background-color: lawngreen; */
+    margin-top: 115px;
+    gap: 19px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.delivery-cart-first-text {
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 130%;
+
+}
+
+.delivery-cart-dash {
+    width: 52px;
+    height: 1px;
+    border-radius: 100px;
+    background: #1C1C1C;
+    margin-top: -20px;
+}
+
+.delivery-cart-second-text {
+    width: 312px;
+
+    text-align: center;
+    font-family: SF UI Display;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 23px;
+    /* 143.75% */
+    letter-spacing: 0.32px;
+    margin-top: 0%;
+}
+
+.header-blok-payment {
+    display: block;
+    justify-content: center;
+    text-align: center;
+
+    width: 446px;
+    height: 104px;
+    margin-left: 400px;
+
+}
+
+.Payment-header {
+    width: 231px;
+    height: 40px;
+    color: #000;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: GT Eesti Pro Display;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 63px;
+    /* 210% */
+    letter-spacing: 0.3px;
+    margin-left: 105px;
+}
+
+.Payment-text {
+
+    width: 446px;
+    color: #3D3D3D;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: 23px;
+    letter-spacing: 0.32px;
+}
+
+.info-blok-payment {
+    width: 1201px;
+    height: 350px;
+
+    gap: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.Non-cash-payment-card {
+    width: 555px;
+    height: 350px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.cash-payment-card {
+    width: 555px;
+    height: 350px;
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.cash-payment-card-text-and-svg {
+    width: 466px;
+    height: 244px;
+    margin-top: 50px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #3D3D3D;
+    transition: 0.3s;
+}
+
+.cash-payment-card-text-and-svg:hover {
+    background-color: #333;
+    color: #8BAF13;
+
+    .header-cash-payment-card-text-gray_line {
+        background-color: #8BAF13;
+    }
+
+}
+
+.cash-payment-card-text {
+    width: 466px;
+    height: 119px;
+    display: block;
+
+}
+
+.cash-payment-card-svg {
+    width: 90px;
+    margin-top: 5px;
+}
+
+.header-cash-payment-card-text {
+
+
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.header-cash-payment-card-text-gray_line {
+    width: 52px;
+    height: 1px;
+    border-radius: 100px;
+    background: #494949;
+    margin-left: 205px;
+}
+
+.cash-payment-card-full-text {
+
+    width: 466px;
+    text-align: center;
+    font-family: SF UI Display;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 23px;
+    /* 143.75% */
+    letter-spacing: 0.16px;
+}
+
+/* ----------wraper-contacts---------------- */
+
+.wraper-contacts {
+    width: 1201px;
+    height: 430px;
+    margin-left: 100px;
+    margin-top: 40px;
+    display: none;
+}
+
+.wraper-contacts-show{
+display: block;
+}
+
+.block-contacts-and-Map {
+    width: 1201px;
+    height: 389px;
+    
+    display: inline-flex;
+}
+
+.info-block-contacts {
+    width: 402px;
+    height: 224px;
+    
+}
+
+.header-info-block-contacts {
+    width: 402px;
+    height: 47px;
+    display: block;
+    text-align: left;
+    justify-content: left;
+
+}
+
+.header-text-info-block-contacts {
+    color: #000;
+    font-family: GT Eesti Pro Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 0px;
+
+
+}
+
+.header-info-block-contacts-line {
+    width: 438px;
+    height: 3px;
+    /* background-color: #7d5a5a; */
+    margin-top: -6px;
+    display: flex;
+}
+
+.contacts-green-company {
+    width: 92px;
+    height: 3px;
+    background-color: #799A0D;
+    
+}
+
+.contacts-gray-company {
+    width: 310px;
+    height: 1px;
+    background-color: #BCCAD2;
+    margin-top: 2px;
+}
+
+.info-block-contacts-text {
+   
+    width: 271px;
+    height: 137px;
+}
+
+.block-contacts-text-svg {
+    width: 271px;
+    height: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+   
+}
+
+.block-contacts-text {
+    color: #000;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin-top: 0%;
+}
+
+.map {
+    width: 718px;
+    height: 389px;
+
+    margin-left: 81px;
+    border-radius: 10px;
+}
+
+
+/* 
+.wraper-Error{
+    width: 1200px;
+    height: 240px;
+    margin-left: 100px;
+    display: none;
+    background-color: #3D3D3D 
+}
+
+.wraper-Error-show{
+    display: block;
+    
+}
+
+.error404{
+    display: none;
+}
+
+.error404-show{
+    display: block;
+}
+
+
+
+
+
+  #error404 h1 {
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 150px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    animation: 60s infinite colorWheelTxt;
+  }
+  #error404 h1 svg {
+    width: 100px;
+    height: 100px;
+  }
+  #error404 h1 svg circle:first-of-type {
+    animation: 30s infinite colorWheel1;
+  }
+  #error404 h1 svg circle:last-of-type {
+    animation: 20s infinite colorWheel2;
+  }
+  #error404 .subtitle {
+    position: relative;
+    top: 0vmin;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    padding: 0;
+    margin: 0 auto;
+    font-size: 5vmin;
+  }
+  
+  @keyframes colorWheelTxt {
+    from {
+      color: rgb(0, 255, 30);
+    }
+    50% {
+      color: #648300;
+    }
+    50% {
+      color: rgb(0, 255, 30);
+    }
+    30% {
+      color: #648300;
+    }
+    40% {
+      color:rgb(0, 255, 30);
+    }
+    50% {
+      color: #648300;
+    }
+    50% {
+      color: rgb(0, 255, 30);
+    }
+    70% {
+      color: #648300;
+    }
+    80% {
+      color:rgb(0, 255, 30);
+    }
+    90% {
+      color: #648300;
+    }
+    to {
+      color: rgb(0, 255, 30);
+    }
+  }
+  @keyframes colorWheel1 {
+    from {
+      stroke: rgb(0, 255, 30);
+    }
+    15% {
+      stroke: #648300;
+    }
+    30% {
+      stroke:rgb(0, 255, 30);
+    }
+    45% {
+      stroke: #648300;
+    }
+    75% {
+      stroke: rgb(0, 255, 30);
+    }
+    90% {
+      stroke: #648300;
+    }
+    to {
+      stroke:rgb(0, 255, 30);
+    }
+  }
+  @keyframes colorWheel2 {
+    from {
+      stroke: rgb(0, 255, 30);
+    }
+    15% {
+      stroke: #648300;
+    }
+    30% {
+      stroke: rgb(0, 255, 30);
+    }
+    45% {
+      stroke: #648300;
+    }
+    75% {
+      stroke: rgb(0, 255, 30);
+    }
+    90% {
+      stroke: #648300;
+    }
+    to {
+      stroke: rgb(0, 255, 30);
+    }
+  }
+   */
